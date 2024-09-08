@@ -1,0 +1,145 @@
+.container1 {
+    background: #314b58;
+}
+.container1 .shell1 {
+    margin: auto;
+    width: fit-content;
+}
+.container1 .shell1 .responsive {
+    display: flex;
+}
+.container1 .shell1 .responsive .services .services-title {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+.container1 .shell1 .responsive .services .services-images {
+    display: flex;
+}
+.container1 .shell1 .responsive .services .services-images .si-contain .si-title {
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.container1 .shell1 .responsive .services .services-images .si-contain img{
+    margin-right: 24px;
+}
+.container1 .shell1 .responsive .map img {
+    height: 100%;
+}
+.container2 {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+.container2 .service-area .area1 {
+    display: flex;
+}
+.container2 .service-area .area1 img {
+    margin: 10px 0;
+    margin-right: 24px;
+}
+.container2 .service-area .area1 .area1-detail {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.container2 .service-area .area1 .area1-detail .area1-links {
+    margin-top: 24px;
+    display: grid;
+}
+.container2 .service-area .area1 .area1-detail .area1-links a {
+    color: #ac3a39;
+    text-decoration: none;
+}
+.container2 .service-area .area-title {
+    color: #ac3a39;
+    font-size: 44px;
+    font-weight: 600;
+}
+.container2 .articles {
+    margin: 26px 0;
+}
+.container2 .articles .articles-title {
+    color: #ac3a39;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.container2 .articles .articles-contain {
+    display: flex;
+    padding-top: 20px;
+}
+.container2 .articles .articles-contain a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+.container2 .articles .articles-contain a .article-text {
+    color: #000;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+.container2 .articles .articles-contain a .article-more {
+    color: #ac3a39;
+    text-decoration: underline;
+    margin-top: 18px;
+}
+
+/* Media query for responsiveness */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Your CSS code for extra small devices */
+    .container1 .shell1 .responsive,
+    .container1 .shell1 .responsive .services .services-images,
+    .container2 .articles .articles-contain {
+        display: block;
+    }
+    .container1 .shell1 .responsive .services .services-images .si-contain img,
+    .container1 .shell1 .responsive .map img {
+        display: block;
+        margin: auto;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Your CSS code for small devices */
+    .container1 .shell1 .responsive,
+    .container1 .shell1 .responsive .services .services-images,
+    .container2 .articles .articles-contain {
+        display: block;
+    }
+    .container1 .shell1 .responsive .services .services-images .si-contain img,
+    .container1 .shell1 .responsive .map img {
+        display: block;
+        margin: auto;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your CSS code for medium devices */
+    .container1 .shell1 .responsive,
+    .container1 .shell1 .responsive .services .services-images {
+        display: block;
+    }
+    .container1 .shell1 .responsive .services .services-images .si-contain img,
+    .container1 .shell1 .responsive .map img {
+        display: block;
+        margin: auto;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your CSS code for large devices */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Your CSS code for extra large devices */
+  }
+  
